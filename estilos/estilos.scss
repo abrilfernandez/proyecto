@@ -1,0 +1,672 @@
+$color: #97d3ed; 
+$color2: lightpink;
+$color3: grey;
+$color4: black;
+$color5:#237980 ;
+$color6: lightblue;
+
+
+.header{
+    background-color: $color;
+    height: 19%;
+    width: 100%;
+    margin-bottom: 10px; 
+    flex-wrap: wrap;
+    padding-left: 10;
+.logoizquierda{
+   width: 150%;
+   height: 46px;
+   margin: right;
+   justify-content: right;
+   padding-left: 0%;
+}
+ }
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 20px;
+    background-color: $color3;
+}
+.estetica{
+    color: $color5;
+    text-align: center;
+    font-family: 'Dancing Script, cursiva';
+    font-size: 25;
+    background-color:$color6;
+    width: 100%;
+}
+.h2{
+    color: black;
+    text-align: center;
+    font-size: 25;
+}
+.alinear{
+margin: 25px;
+}
+.conteiner{
+   display: flex;
+   justify-content: center;
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s;
+  }
+  .conteiner:hover{
+    --escala: 1.2;
+    cursor:pointer;
+  }
+.body1{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-acuarela-celeste_585371-35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body2{
+    background-image: url(https://img.freepik.com/fotos-premium/varias-herramientas-manicura-productos-sobre-fondo-blanco_23-2147971378.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.body3{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/773/719/non_2x/rolled-pink-spa-towel-and-frangipani-flowers-with-branch-on-white-background-spa-and-wellness-center-of-the-hotel-or-resort-background-for-bath-and-beauty-products-relax-with-aromatherapy-zen-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body4{
+    background-image: url(https://draveronicaizquierdo.com/wp-content/uploads/2020/03/cirug%C3%ADa-corporal-Dra.-Ver%C3%B3nica-izquierdo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.body5{
+    background-image: url(https://us.123rf.com/450wm/vicushka/vicushka1803/vicushka180300192/97944052-cuidado-de-la-piel-en-posici%C3%B3n-plana-con-m%C3%A1scara-facial-botella-de-spray-de-niebla-suculentas-y.jpg?ver=6);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.body6{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/11/23/Mandala-Art-Grey-Pattern-Graphics-20597060-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body7{
+    background-image: url(https://img.freepik.com/fotos-premium/varias-herramientas-manicura-productos-sobre-fondo-blanco_23-2147971378.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body8{
+    background-image: url(https://us.123rf.com/450wm/vicushka/vicushka1803/vicushka180300192/97944052-cuidado-de-la-piel-en-posici%C3%B3n-plana-con-m%C3%A1scara-facial-botella-de-spray-de-niebla-suculentas-y.jpg?ver=6);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+}
+
+.header2{
+    background-color:$color2;
+    height: 17%;
+    width: 100%;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    .h1{
+        text-align: left;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+ h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+button{
+    font-size: medium;
+    text-align: center;
+    margin: 1%;
+}
+.titulos{
+    text-align: center;
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s;
+  }
+  .titulos:hover{
+    --escala: 1.2;
+    cursor:pointer;
+  }
+
+.header3{
+    background-color: $color;
+    height: 17%;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 10;
+    flex-wrap: wrap;
+    h1{
+        text-align: left;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+} 
+.manicuria{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   display: grid;
+   justify-content: left;
+   align-items: left;
+}
+
+.header4{
+    background-color: $color;
+    height: 17%;
+    width: 100%;
+    margin-bottom: 10px; 
+    flex-wrap: wrap;
+    padding-left: 10;
+    h1{
+        text-align: left;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+}
+.header5{
+    background-color: $color;
+    height: 17%;
+    width: 100%;
+    margin-bottom: 10px; 
+    flex-wrap: wrap;
+    padding-left: 10;
+    h1{
+        text-align: left;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+}
+.header6{
+    background-color: $color;
+    height: 17%;
+    width: 100%;
+    margin-bottom: 10px; 
+    flex-wrap: wrap;
+    padding-left: 10;
+    h1{
+        text-align: left;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+.header7{
+    background-color: $color2;
+    height: 17%;
+    width: 100%;
+    margin-bottom: 10px; 
+    flex-wrap: wrap;
+    padding-left: 10;
+    .titulos{
+        font-size: medium;
+        text-align: center;
+        margin: 1%;
+    }
+}
+.header8{
+    background-color: $color;
+    height: 17%;
+    width: 100%;
+    margin-bottom: 10px; 
+    flex-wrap: wrap;
+    padding-left: 10;
+    .titulos{
+        font-size: medium;
+        text-align: center;
+        margin: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .header{
+        flex-wrap: wrap;
+        height: auto;
+        background-image: url(https://www.fundassofas.com/wp-content/uploads/2017/04/metrajes-telas-por-metro-mandala-beige.jpg);
+        background-size: cover;
+        height: 20%;
+    }
+    .titulos{
+        margin-right: 30px ;
+        text-align: center;
+
+    }
+    .estetica{
+      margin-right: 30px;
+    }
+    .conteiner1{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .header2{
+      flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url(https://media.istockphoto.com/id/1270970280/es/vector/patr%C3%B3n-sin-costuras-de-tarros-de-esmalte-de-u%C3%B1as-de-colores-tijeras-de-u%C3%B1as-y-limas-de-u%C3%B1as.jpg?s=612x612&w=0&k=20&c=dsZAkbPQua8IqMB8WX2w19XMy_gIOQSd9wZ5ixsTTcY=);
+        height: 17%;
+    }
+    .texto{
+        flex-wrap: nowrap;
+
+    }
+    .header4{
+        background-image: url(https://img.freepik.com/vector-gratis/fondo-puntos-azules-dibujados-mano_23-2149574814.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header3{
+        background-image: url(https://us.123rf.com/450wm/lovender/lovender1706/lovender170600215/81180550-patr%C3%B3n-de-tri%C3%A1ngulo-mosaico-fondo-geom%C3%A9trico-del-vector-incons%C3%BAtil-tri%C3%A1ngulos-azules-grises-y.jpg);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header5{
+        background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-varios-circulos-transparentes-pequeno_58702-7141.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header6{
+        background-image: url(https://img.freepik.com/vector-gratis/vector-fondo-marron-mandala-indio-diwali_53876-143426.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .logoizquierda{
+      width: 0%;
+      height: 0%;
+
+    }
+    .logomanicuria{
+       width: 0%;
+       height: 0%;
+        
+    }
+    .manicuria{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+
+    .Tcorporales{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    .masajes{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    .tfaciales{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    .terapias{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+   .imagenes2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left ;
+   }
+.carousel-inner {
+    width: 500px;
+    height: 100px;
+}
+.button{
+    width: 0,5%;
+    height: 0,5%;
+}
+.h1{
+    justify-content: center;
+    text-align: center;
+}
+.body2{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-estuco-textura-rosa_23-2148320407.jpg?w=2000);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+   }
+   .body3{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPDxUPDxIVDw8PFRUPDw8PFRUPDw8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8PFSsdFR0rKy0tLS0rKy0tLS0rLS0tNy0tLSstLS0tKy0tLS0rLS0tLS0tKy0tKy0tLTctNy0tN//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECBQP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AOskFerjKAKRpJFwagEiooAKuAoqCgoBAEUBAoIAAAAgoIzYoCYmI1UqogYWCIi4lEABEaAUUkBVipFRpFCCqigoRQUDRFVIoAKCoAImCoAiioIqCGIpQRFBlAFREqpRKIupaJVWIopGmWoLCAqKguAosRRoBUVFIQFBBVwAVBUEDBQRFBEFTFTEAEEVBBFQQrNWpVZoypgyqoo0qoqNQVFFAUVFFFRTDEUUBQAUBRUAEQKCBQ0BFqUQQFZEUBCgMolVKrNQwBFEUVVRUagqKKQAVaC6KAqNAAq1FBUIQEVAAwoAiKKiACCKggCCFAERLVSqzUAGRYiwVYqKjQqKLCKAoqaqNCiCqYICqQGgFCM0WoIAgAqCFQBABUQEEKioMjKorNBARQNBYqRdGlVmVUWKaA0pAFVUEVRAVVTQVRABAEFQAEBAARBUVBKFEqACIi1FZqIqDKqzKoa0JFGlisxpFi6aijQKgq6aAqgIqiAuqJANAQRUAApRUQ0QRUNBBAogglVFSiUZqCJarOtKzqoNCao00RJV0aiiKimqiiqJoK0iAutahogAWgCCiiAaUiaDKiIGqgaJogYqCUNESpVSjKJYorKRUUIqpFRpYsqJBW9Imro1q6agLqqzFQ0AFU1AVdBAFQEVKABTUEARUAAEogmlKIMhRNEBBU1GmI0JF1dRUaiyqhBpQwwFgEFFRRYKi6igaaAJoCiGgqGpomqIVTVQQTTQSwRUpCwRAwwRKlaxLFSsi4mCCoBFiwBYsWKI0ACqigpAAVAFUAFiAKQQEVAAWgAgCVmpVBlIoAzABBKgrNBAR//Z);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+   }
+.body4{
+background-image: url(https://www.todofondos.net/wp-content/uploads/todofondos-colorespasteles6.jpg);
+flex-wrap: nowrap;
+height: auto;
+background-size: cover;
+}
+.body5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVWCM1zd-tM0bQDSVna-SgXvUXzZSV-TE8w&usqp=CAU);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+}
+.body6{
+    background-image: url(https://i.pinimg.com/474x/cb/d6/a2/cbd6a2c682606ee99d5a5830f1529a2e.jpg);
+    flex-wrap: nowrap;
+    height: auto;
+    
+    }
+}
+@media only screen and (max-width: 768px){
+    .header{
+        flex-wrap: wrap;
+        height: auto;
+        background-image: url(https://www.fundassofas.com/wp-content/uploads/2017/04/metrajes-telas-por-metro-mandala-beige.jpg);
+        background-size: cover;
+    }
+    .titulos{
+        margin-right: 30px ;
+        text-align: center;
+
+    }
+    .estetica{
+      margin-right: 30px;
+    }
+    .conteiner{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header2{
+        flex-wrap: wrap;
+        height: auto; 
+        background-image: url(https://media.istockphoto.com/id/1270970280/es/vector/patr%C3%B3n-sin-costuras-de-tarros-de-esmalte-de-u%C3%B1as-de-colores-tijeras-de-u%C3%B1as-y-limas-de-u%C3%B1as.jpg?s=612x612&w=0&k=20&c=dsZAkbPQua8IqMB8WX2w19XMy_gIOQSd9wZ5ixsTTcY=);
+        background-size: cover;
+    }
+    .header4{
+        background-image: url(https://img.freepik.com/vector-gratis/fondo-puntos-azules-dibujados-mano_23-2149574814.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header3{
+        background-image: url(https://us.123rf.com/450wm/lovender/lovender1706/lovender170600215/81180550-patr%C3%B3n-de-tri%C3%A1ngulo-mosaico-fondo-geom%C3%A9trico-del-vector-incons%C3%BAtil-tri%C3%A1ngulos-azules-grises-y.jpg);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header5{
+        background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-varios-circulos-transparentes-pequeno_58702-7141.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header6{
+        background-image: url(https://img.freepik.com/vector-gratis/vector-fondo-marron-mandala-indio-diwali_53876-143426.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .texto{
+        flex-wrap: nowrap;
+
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .logoizquierda{
+      width: 0%;
+      height: 0%;
+
+    }
+    .manicuria{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    
+   .imagenes2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left ;
+   }
+
+.carousel-inner {
+    width: 600%;
+    height: 100%;
+}
+.manicuria{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: small;
+}
+
+.Tcorporales{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: small;
+}
+.masajes{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: small;
+}
+.tfaciales{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: small;
+}
+.terapias{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: small;
+}
+.body2{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-estuco-textura-rosa_23-2148320407.jpg?w=2000);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+   }
+   .body3{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPDxUPDxIVDw8PFRUPDw8PFRUPDw8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8PFSsdFR0rKy0tLS0rKy0tLS0rLS0tNy0tLSstLS0tKy0tLS0rLS0tLS0tKy0tKy0tLTctNy0tN//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECBQP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AOskFerjKAKRpJFwagEiooAKuAoqCgoBAEUBAoIAAAAgoIzYoCYmI1UqogYWCIi4lEABEaAUUkBVipFRpFCCqigoRQUDRFVIoAKCoAImCoAiioIqCGIpQRFBlAFREqpRKIupaJVWIopGmWoLCAqKguAosRRoBUVFIQFBBVwAVBUEDBQRFBEFTFTEAEEVBBFQQrNWpVZoypgyqoo0qoqNQVFFAUVFFFRTDEUUBQAUBRUAEQKCBQ0BFqUQQFZEUBCgMolVKrNQwBFEUVVRUagqKKQAVaC6KAqNAAq1FBUIQEVAAwoAiKKiACCKggCCFAERLVSqzUAGRYiwVYqKjQqKLCKAoqaqNCiCqYICqQGgFCM0WoIAgAqCFQBABUQEEKioMjKorNBARQNBYqRdGlVmVUWKaA0pAFVUEVRAVVTQVRABAEFQAEBAARBUVBKFEqACIi1FZqIqDKqzKoa0JFGlisxpFi6aijQKgq6aAqgIqiAuqJANAQRUAApRUQ0QRUNBBAogglVFSiUZqCJarOtKzqoNCao00RJV0aiiKimqiiqJoK0iAutahogAWgCCiiAaUiaDKiIGqgaJogYqCUNESpVSjKJYorKRUUIqpFRpYsqJBW9Imro1q6agLqqzFQ0AFU1AVdBAFQEVKABTUEARUAAEogmlKIMhRNEBBU1GmI0JF1dRUaiyqhBpQwwFgEFFRRYKi6igaaAJoCiGgqGpomqIVTVQQTTQSwRUpCwRAwwRKlaxLFSsi4mCCoBFiwBYsWKI0ACqigpAAVAFUAFiAKQQEVAAWgAgCVmpVBlIoAzABBKgrNBAR//Z);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+   }
+.body4{
+background-image: url(https://www.todofondos.net/wp-content/uploads/todofondos-colorespasteles6.jpg);
+flex-wrap: nowrap;
+height: auto;
+background-size: cover;
+}
+.body5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVWCM1zd-tM0bQDSVna-SgXvUXzZSV-TE8w&usqp=CAU);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+}
+.body6{
+    background-image: url(https://i.pinimg.com/474x/cb/d6/a2/cbd6a2c682606ee99d5a5830f1529a2e.jpg);
+    flex-wrap: nowrap;
+    height: auto;
+    
+    }
+}
+@media only screen and (max-width: 1024px){
+    .header{
+        flex-wrap: nowrap;
+        height: auto;
+        background-image: url(https://www.fundassofas.com/wp-content/uploads/2017/04/metrajes-telas-por-metro-mandala-beige.jpg);
+        background-size: cover;
+    }
+    .titulos{
+        margin-right: 60px ;
+        text-align: center;
+
+    }
+    .estetica{
+      margin-right: 60px;
+    }
+    .conteiner1{
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+    }
+    .header2{
+        flex-wrap: rap;
+        height: 17%; 
+        background-image: url(https://media.istockphoto.com/id/1270970280/es/vector/patr%C3%B3n-sin-costuras-de-tarros-de-esmalte-de-u%C3%B1as-de-colores-tijeras-de-u%C3%B1as-y-limas-de-u%C3%B1as.jpg?s=612x612&w=0&k=20&c=dsZAkbPQua8IqMB8WX2w19XMy_gIOQSd9wZ5ixsTTcY=);
+        background-size: cover;
+    }
+    .header4{
+        background-image: url(https://img.freepik.com/vector-gratis/fondo-puntos-azules-dibujados-mano_23-2149574814.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header3{
+        background-image: url(https://us.123rf.com/450wm/lovender/lovender1706/lovender170600215/81180550-patr%C3%B3n-de-tri%C3%A1ngulo-mosaico-fondo-geom%C3%A9trico-del-vector-incons%C3%BAtil-tri%C3%A1ngulos-azules-grises-y.jpg);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header5{
+        background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-varios-circulos-transparentes-pequeno_58702-7141.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .header6{
+        background-image: url(https://img.freepik.com/vector-gratis/vector-fondo-marron-mandala-indio-diwali_53876-143426.jpg?w=2000);
+        flex-wrap: wrap;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 17%;
+    }
+    .texto{
+        flex-wrap: nowrap;
+
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .logoizquierda{
+      width: 0%;
+      height: 0%;
+
+    }
+    .manicuria{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+
+    .Tcorporales{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    .masajes{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    .tfaciales{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    .terapias{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: small;
+    }
+    
+   .imagenes2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left ;
+   }
+.body2{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-estuco-textura-rosa_23-2148320407.jpg?w=2000);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+   }
+   .body3{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPDxUPDxIVDw8PFRUPDw8PFRUPDw8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8PFSsdFR0rKy0tLS0rKy0tLS0rLS0tNy0tLSstLS0tKy0tLS0rLS0tLS0tKy0tKy0tLTctNy0tN//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECBQP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AOskFerjKAKRpJFwagEiooAKuAoqCgoBAEUBAoIAAAAgoIzYoCYmI1UqogYWCIi4lEABEaAUUkBVipFRpFCCqigoRQUDRFVIoAKCoAImCoAiioIqCGIpQRFBlAFREqpRKIupaJVWIopGmWoLCAqKguAosRRoBUVFIQFBBVwAVBUEDBQRFBEFTFTEAEEVBBFQQrNWpVZoypgyqoo0qoqNQVFFAUVFFFRTDEUUBQAUBRUAEQKCBQ0BFqUQQFZEUBCgMolVKrNQwBFEUVVRUagqKKQAVaC6KAqNAAq1FBUIQEVAAwoAiKKiACCKggCCFAERLVSqzUAGRYiwVYqKjQqKLCKAoqaqNCiCqYICqQGgFCM0WoIAgAqCFQBABUQEEKioMjKorNBARQNBYqRdGlVmVUWKaA0pAFVUEVRAVVTQVRABAEFQAEBAARBUVBKFEqACIi1FZqIqDKqzKoa0JFGlisxpFi6aijQKgq6aAqgIqiAuqJANAQRUAApRUQ0QRUNBBAogglVFSiUZqCJarOtKzqoNCao00RJV0aiiKimqiiqJoK0iAutahogAWgCCiiAaUiaDKiIGqgaJogYqCUNESpVSjKJYorKRUUIqpFRpYsqJBW9Imro1q6agLqqzFQ0AFU1AVdBAFQEVKABTUEARUAAEogmlKIMhRNEBBU1GmI0JF1dRUaiyqhBpQwwFgEFFRRYKi6igaaAJoCiGgqGpomqIVTVQQTTQSwRUpCwRAwwRKlaxLFSsi4mCCoBFiwBYsWKI0ACqigpAAVAFUAFiAKQQEVAAWgAgCVmpVBlIoAzABBKgrNBAR//Z);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+   }
+.body4{
+background-image: url(https://www.todofondos.net/wp-content/uploads/todofondos-colorespasteles6.jpg);
+flex-wrap: nowrap;
+height: auto;
+background-size: cover;
+}
+.body5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVWCM1zd-tM0bQDSVna-SgXvUXzZSV-TE8w&usqp=CAU);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+}
+.carousel-inner {
+    width: 600%;
+    height: 100%;
+}
+.body6{
+    background-image: url(https://i.pinimg.com/474x/cb/d6/a2/cbd6a2c682606ee99d5a5830f1529a2e.jpg);
+    flex-wrap: nowrap;
+    height: auto;
+    
+    }
+.body7{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-estuco-textura-rosa_23-2148320407.jpg?w=2000);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+}
+.body8{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVWCM1zd-tM0bQDSVna-SgXvUXzZSV-TE8w&usqp=CAU);
+    flex-wrap: nowrap;
+    height: auto;
+    background-size: cover;
+}
+}
+ 
